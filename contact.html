@@ -1,1 +1,61 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Us!</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us!</h1>
+      <nav>
+	<ol>
+	  <li><a href="index.html">About</a></li>
+	  <li><a href="achievements.html">Achimevements</a></li>
+	  <li><a href="legacy.html">Legacy</a></li>
+	  <li><a href="photos.html">Ryans Photos</a></li>
+    <li><a href="contact.html">Contact Us!</a></li>
+	</ol>
+      </nav>
+    </header>
+      <form action="" method="post">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="tel">Telephone No.: </label><br>
+        <input list="telnum" id="telnum" name="telnum">
+          <datalist id="telnum">
+            <option value="+60">
+            <option value="+61">
+            <option value="+65">
+          </datalist>
+        <br>
+        <label for="url">Website: </label><br>
+        <input list="website" id="website" name="website">
+          <datalist id="website">
+            <option value="http://">
+            <option value="+https://">
+          </datalist>
+      </fieldset>
+      <fieldset>
+        <legend>Enquiry Information</legend>
+        <label for="enquirytype" id="enquirytype" name="enquirytype">
+        <select name="browser" id="browser">
+          <option value="">Product Enquiry</option>
+          <option value="1">Hi there!</option>
+          <option value="2">I don't know what to put anymore</option>
+          <option value="3">Bye Bye!</option>
+        </select>
+        <label for="Title">Title: </label><br>
+        <input type="text" id="title" name="title">
+        <textarea rows="5" cols="50" id="content" name="content"></textarea>
+      </fieldset>
+      <input type="submit" value="Send Enquiry">
+  </body>
+  <footer>
+	<small>Copyright &copy; 2025</small><br>
+	<a href="https://penangmaker.com/" target="_blank">This is a student assignment from Han Chiang High School Makers Club. Please refer to Ryan Lim for more info, or for Kendrik Cheah to learn how to make this.</a>
+  </footer>
+</html>

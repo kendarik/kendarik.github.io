@@ -1,1 +1,15 @@
+.goofyryan {
+  border-style: groove dashed;
+  border-color: red;
+  border-width: 5px;
+  padding: 20px;
+  margin: 0 auto;
+}
 
+.nojawlineryan {
+  border-style: solid dotted;
+  border-color: yellow; 
+  border-width: 5px;
+  padding: 20px;
+  margin: 0 auto;
+}
